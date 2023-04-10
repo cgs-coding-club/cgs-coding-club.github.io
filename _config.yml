@@ -8,6 +8,9 @@ author:
 description: >
   CGS Competitive Programming club materials and trainings. Made with ❤️ for Canberra Grammar School.
 
+baseurl: "/"
+url: "https://cgs-coding-club.github.io"
+
 # Build settings
 
 theme: minima
