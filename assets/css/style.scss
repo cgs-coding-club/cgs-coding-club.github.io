@@ -1,0 +1,29 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import
+  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
+  "minima/initialize";
+
+body {
+    font-family: 'PT Mono', monospace;
+}
+
+blockquote {
+    font-style: normal;
+}
+
+.site-header {
+    border-top: none;
+    border-bottom: 1px solid $border-color-01;
+}
+
+ul.post-list li {
+    border: none;
+    border-radius: 5px;
+    background-color: #292929;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
