@@ -7,11 +7,11 @@ title: Sorting implementations (C++)
 
 ```cpp
 for (int i = 0; i < n - 1; i++) {
-	for (int j = i; j < n; j++) {
-		if (s[i] > s[j]) {
-			swap(s[i], s[j]);
-		}
-	}
+  for (int j = i; j < n; j++) {
+      if (s[i] > s[j]) {
+          swap(s[i], s[j]);
+      }
+  }
 }
 ```
 
